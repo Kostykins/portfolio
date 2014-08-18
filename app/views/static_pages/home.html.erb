@@ -1,0 +1,71 @@
+<% title "Home" %>
+<div id="wrap">
+  <div class="topBox topImage">
+    <!-- <div class="fixed-topBox"></div> -->
+    <div class="mainText">-Welcome-</div>
+    <div class="desciptorText-Main">mattkostelecky.com
+    </div>
+    <%= link_to about_about_path, id: "About" do %>
+        <div class="aboutLink">
+          <i class="fa fa-question-circle fa-fw space-icon-out" ></i>
+          About
+        </div>
+    <% end %>
+    <%= link_to projects_projects_path, id: "Projects" do %>
+        <div class="projectsLink">
+          <i class="fa fa-book fa-fw space-icon-out" ></i>
+          Projects
+        </div>
+    <% end %>
+  </div>
+<div class="placeHoldBox">
+  <div class="row">
+    <div class="designBox">
+      <div class="col-md-6 col-xs-12" style="padding-right: 0px; padding-left: 0px;">
+        <!-- <div class="designText"> -->
+        <div class="mainText2" ><i class="fa fa-pencil-square fa-fw space-icon-out" ></i>Design</div>
+        <hr class="style-one">
+        <div class="desciptorText-Main2 ">
+          <div class="designList">
+            User Friendly<p></p>Simple<p></p>Responsive<p></p>Clean<p></p>Intuitive
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+      <div class="col-md-6 col-xs-12" style="padding-right: 0px; padding-left: 0px;">
+        <div class="designExample"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="codePlaceHoldBox">
+  <div class="row">
+    <div class="codeBox">
+      <div class="col-md-6 col-xs-12" style="padding-right: 0px; padding-left: 0px;">
+        <!-- <div class="designText"> -->
+        <div class="mainText2"><i class="fa fa-code fa-fw space-icon-out" ></i>Code</div>
+        <hr class="style-one">
+        <div class="desciptorText-Main2">
+          <div class="designList">
+            Objective-C<p></p>Ruby<p></p>HTML | CSS | Javascript<p></p>C | C++ <p></p>Java
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+      <div class="col-md-6 col-xs-12" style="padding-right: 0px; padding-left: 0px;">
+        <div class="codeExample"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+    $(document).ready(function () {
+        $(window).on('beforeunload', function(){
+            $(window).scrollTop(0);
+        });
+    });
+</script>
+
+
+
