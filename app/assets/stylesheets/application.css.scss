@@ -576,7 +576,7 @@ and (max-width : 991px) {
     border: 0px solid #333333;
     @include transition(.2s);
   }
-  .outercircle:hover{
+  .outercircle:active{
     height: 140px;
     width: 140px;
     background-color: #333333;
@@ -601,7 +601,7 @@ and (max-width : 991px) {
     @include transition(.2s);
 
   }
-  .bigIcon.twitter:hover{
+  .bigIcon.twitter:active{
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -613,7 +613,7 @@ and (max-width : 991px) {
     @include transition(.2s);
 
   }
-  .bigIcon.facebook:hover{
+  .bigIcon.facebook:active{
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -636,7 +636,7 @@ and (max-width : 991px) {
     background-color: #c0372f;
     @include transition(.2s);
   }
-  .bigIcon.email:hover{
+  .bigIcon.email:active{
     height: 80px;
     width: 80px;
     border-radius: 50%;
