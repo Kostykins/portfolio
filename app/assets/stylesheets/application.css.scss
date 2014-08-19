@@ -557,12 +557,102 @@ and (max-width : 991px) {
   .aboutLink:active, .projectsLink:active{
     background-color: #E8EDED;
     color: #333333;
-    font-size: 36px;
+    font-size: 48px;
     text-decoration: none;
     text-align: center;
     @include transition(.2s);
   }
+  .outercircle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#333333;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    border: 0px solid #333333;
+    @include transition(.2s);
+  }
+  .outercircle:hover{
+    height: 140px;
+    width: 140px;
+    background-color: #333333;
+    border: 10px solid transparent;
+    -webkit-backface-visibility: hidden;
+    @include transition(.2s);
+    @include box-shadow(rgba(34,34,34,1), 0px, 0px, 10px);
+  }
+  .bigIcon{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#333333;
+    background-color: #E8EDED;
+    text-align: center;
+    margin: auto;
+    @include fadein(.6s);
+    i.fa-facebook, i.fa-twitter{
+      margin-top:22px;
+    }
+    @include transition(.2s);
 
+  }
+  .bigIcon.twitter:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #60c3d2;
+    @include transition(.2s);
+
+  }
+  .bigIcon.facebook:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #3752a4;
+    @include transition(.2s);
+    //margin-top: -10px;
+  }
+  .bigIcon.github:hover{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #c0372f;
+    @include transition(.2s);
+  }
+  .bigIcon.email:hover{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #4d8144;
+    @include transition(.2s);
+  }
+  .bigIcon-Text{
+    color: #E8EDED;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal !important;
+    font-weight: 100;
+    @include fadein(.6s);
+  }
 }
 
 @media only screen
@@ -730,98 +820,97 @@ and (max-width : 4000px) {
     text-align: center;
     @include transition(.2s);
   }
-
-}
-.outercircle{
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
-  font-size: 84px;
-  color:#333333;
-  background-color: transparent;
-  text-align: center;
-  margin: auto;
-  border: 0px solid #333333;
-  @include transition(.2s);
-}
-.outercircle:hover{
-  height: 140px;
-  width: 140px;
-  background-color: #333333;
-  border: 10px solid transparent;
-  -webkit-backface-visibility: hidden;
-  @include transition(.2s);
-  @include box-shadow(rgba(34,34,34,1), 0px, 0px, 10px);
-}
-.bigIcon{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  font-size: 84px;
-  color:#333333;
-  background-color: #E8EDED;
-  text-align: center;
-  margin: auto;
-  @include fadein(.6s);
-  i.fa-facebook, i.fa-twitter{
-    margin-top:22px;
+  .outercircle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#333333;
+    background-color: transparent;
+    text-align: center;
+    margin: auto;
+    border: 0px solid #333333;
+    @include transition(.2s);
   }
-  @include transition(.2s);
+  .outercircle:hover{
+    height: 140px;
+    width: 140px;
+    background-color: #333333;
+    border: 10px solid transparent;
+    -webkit-backface-visibility: hidden;
+    @include transition(.2s);
+    @include box-shadow(rgba(34,34,34,1), 0px, 0px, 10px);
+  }
+  .bigIcon{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#333333;
+    background-color: #E8EDED;
+    text-align: center;
+    margin: auto;
+    @include fadein(.6s);
+    i.fa-facebook, i.fa-twitter{
+      margin-top:22px;
+    }
+    @include transition(.2s);
 
-}
-.bigIcon.twitter:hover{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  font-size: 84px;
-  color:#E8EDED;
-  text-align: center;
-  margin: auto;
-  background-color: #60c3d2;
-  @include transition(.2s);
+  }
+  .bigIcon.twitter:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #60c3d2;
+    @include transition(.2s);
 
-}
-.bigIcon.facebook:hover{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  font-size: 84px;
-  color:#E8EDED;
-  text-align: center;
-  margin: auto;
-  background-color: #3752a4;
-  @include transition(.2s);
-  //margin-top: -10px;
-}
-.bigIcon.github:hover{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  font-size: 84px;
-  color:#E8EDED;
-  text-align: center;
-  margin: auto;
-  background-color: #c0372f;
-  @include transition(.2s);
-}
-.bigIcon.email:hover{
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  font-size: 84px;
-  color:#E8EDED;
-  text-align: center;
-  margin: auto;
-  background-color: #4d8144;
-  @include transition(.2s);
-}
-.bigIcon-Text{
-  color: #E8EDED;
-  text-align: center;
-  font-size: 44px;
-  font-style: normal !important;
-  font-weight: 100;
-  @include fadein(.6s);
+  }
+  .bigIcon.facebook:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #3752a4;
+    @include transition(.2s);
+    //margin-top: -10px;
+  }
+  .bigIcon.github:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #c0372f;
+    @include transition(.2s);
+  }
+  .bigIcon.email:hover{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 84px;
+    color:#E8EDED;
+    text-align: center;
+    margin: auto;
+    background-color: #4d8144;
+    @include transition(.2s);
+  }
+  .bigIcon-Text{
+    color: #E8EDED;
+    text-align: center;
+    font-size: 44px;
+    font-style: normal !important;
+    font-weight: 100;
+    @include fadein(.6s);
+  }
 }
 
 .designBox{
