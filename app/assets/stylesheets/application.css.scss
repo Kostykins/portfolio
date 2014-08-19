@@ -267,7 +267,8 @@ navbar changes
 }
 
 .navbar-brand.dark,
-.navbar-brand.dark:not(:hover)
+.navbar-brand.dark:not(:hover),
+.navbar-brand.dark:active
 {
   background-color: $active-state-color;
   @include transition(.3s);
