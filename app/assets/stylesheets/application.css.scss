@@ -640,6 +640,7 @@ and (max-width : 991px) {
     @include transition(.2s);
   }
   .bigIcon-Text{
+    margin-top: -8px;
     color: #E8EDED;
     text-align: center;
     font-size: 16px;
@@ -656,7 +657,7 @@ and (max-width : 991px) {
     height: 12px;
   }
   .row.correct-spacing{
-    margin-top: 100px;
+    margin-top: 60px;
   }
   .col-xs-3.no-padding{
     padding-left: 0px;
