@@ -385,7 +385,7 @@ and (min-width : 320px)
 and (max-width : 991px) {
   .topBox, .aboutBox{
     width:100%;
-    height: 760px;
+    height: 560px;
     background-color: #E8EDED;
     font-family: 'Raleway','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     a{
@@ -530,7 +530,7 @@ and (max-width : 991px) {
     font-style: normal !important;
     font-weight: 100;
   }
-  .projectLink:hover, .projectLink:active{
+  .projectLink:hover{
     background-color: #E8EDED;
     color: #333333;
     font-size: 36px;
@@ -538,11 +538,26 @@ and (max-width : 991px) {
     text-align: center;
     @include transition(.2s);
   }
-  .aboutLink:hover, .projectsLink:hover,
+  .aboutLink:hover, .projectsLink:hover{
+    background-color: #E8EDED;
+    color: #333333;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    @include transition(.2s);
+  }
+  .projectLink:active{
+    background-color: #E8EDED;
+    color: #333333;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    @include transition(.2s);
+  }
   .aboutLink:active, .projectsLink:active{
     background-color: #E8EDED;
     color: #333333;
-    font-size: 48px;
+    font-size: 36px;
     text-decoration: none;
     text-align: center;
     @include transition(.2s);
