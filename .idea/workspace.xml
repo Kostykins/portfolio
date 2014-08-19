@@ -28,7 +28,7 @@
       <file leaf-file-name="application.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="607" column="4" selection-start="13923" selection-end="13923" vertical-scroll-proportion="-1.5517242" vertical-offset="9780" max-vertical-offset="15120">
+            <state line="360" column="2" selection-start="8219" selection-end="8219" vertical-scroll-proportion="0.31034482" vertical-offset="5265" max-vertical-offset="15150">
               <folding />
             </state>
           </provider>
@@ -675,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="607" column="4" selection-start="13923" selection-end="13923" vertical-scroll-proportion="-1.5517242" vertical-offset="9780" max-vertical-offset="15120">
+        <state line="360" column="2" selection-start="8219" selection-end="8219" vertical-scroll-proportion="0.31034482" vertical-offset="5265" max-vertical-offset="15150">
           <folding />
         </state>
       </provider>
