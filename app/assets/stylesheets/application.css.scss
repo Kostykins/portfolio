@@ -310,9 +310,7 @@ navbar changes
 .linebar{
   width: 500px;
 }
-.aboutLink{
-  margin-top: 100px;
-}
+
 
 .desciptorText-Main{
   // margin-left: 17%;
@@ -398,24 +396,18 @@ and (max-width : 991px) {
     opacity:1;
     background-color:#E8EDED;
   }
-  .aboutBox{
-    width:100%;
-    height:1000px;
-    opacity:1;
-  }
+ 
 
   .topImage{
-    background-image:url('../assets/minniapolis.png');
+    background-image:url('../assets/minneapolis.png');
     //opacity: .5;
-  }
-  .topImage2{
-    background-image:url('../assets/minniapolis.png');
     background-size: cover;
     overflow: hidden;
-    //opacity: .5;
   }
-  .topImage3{
-    background-image:url('../assets/minniapolisyellow.png');
+  .topImage2{
+    background-image:url('../assets/minneapolis.png');
+    background-size: cover;
+    overflow: hidden;
     //opacity: .5;
   }
   .mainText{
@@ -511,6 +503,9 @@ and (max-width : 991px) {
     background-size: cover;
     @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
   }
+  .aboutLink{
+    margin-top: 100px;
+  }
   .aboutLink, .projectsLink{
     // margin-left: 10%;
     font-size: 48px;
@@ -562,10 +557,10 @@ and (max-width : 991px) {
     @include transition(.2s);
   }
   .outercircle{
-    height: 140px;
-    width: 140px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    font-size: 84px;
+    font-size: 42px;
     color:#333333;
     background-color: transparent;
     text-align: center;
@@ -574,35 +569,35 @@ and (max-width : 991px) {
     @include transition(.2s);
   }
   .outercircle:active{
-    height: 140px;
-    width: 140px;
+    height: 70px;
+    width: 70px;
     background-color: #333333;
-    border: 10px solid transparent;
+    border: 5px solid transparent;
     -webkit-backface-visibility: hidden;
     @include transition(.2s);
     @include box-shadow(rgba(34,34,34,1), 0px, 0px, 10px);
   }
   .bigIcon{
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    font-size: 84px;
+    font-size: 42px;
     color:#333333;
     background-color: #E8EDED;
     text-align: center;
     margin: auto;
     @include fadein(.6s);
     i.fa-facebook, i.fa-twitter{
-      margin-top:22px;
+      margin-top:11px;
     }
     @include transition(.2s);
 
   }
   .bigIcon.twitter:active{
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    font-size: 84px;
+    font-size: 42px;
     color:#E8EDED;
     text-align: center;
     margin: auto;
@@ -611,10 +606,10 @@ and (max-width : 991px) {
 
   }
   .bigIcon.facebook:active{
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    font-size: 84px;
+    font-size: 42px;
     color:#E8EDED;
     text-align: center;
     margin: auto;
@@ -623,10 +618,10 @@ and (max-width : 991px) {
     //margin-top: -10px;
   }
   .bigIcon.github:active{
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    font-size: 84px;
+    font-size: 42px;
     color:#E8EDED;
     text-align: center;
     margin: auto;
@@ -634,10 +629,10 @@ and (max-width : 991px) {
     @include transition(.2s);
   }
   .bigIcon.email:active{
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
-    font-size: 84px;
+    font-size: 42px;
     color:#E8EDED;
     text-align: center;
     margin: auto;
@@ -647,10 +642,25 @@ and (max-width : 991px) {
   .bigIcon-Text{
     color: #E8EDED;
     text-align: center;
-    font-size: 32px;
+    font-size: 16px;
     font-style: normal !important;
     font-weight: 100;
     @include fadein(.6s);
+  }
+  .creative-commons{
+    text-align: center;
+    color: #8a8f8f;
+    font-size: 10px;
+    background-color: #333333;
+    width:100%;
+    height: 12px;
+  }
+  .row.correct-spacing{
+    margin-top: 100px;
+  }
+  .col-xs-3.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 /*******************************************
@@ -714,16 +724,13 @@ and (max-width : 4000px) {
   }
 
   .topImage{
-    background-image:url('../assets/minniapolis.png');
-    //opacity: .5;
-  }
-  .topImage2{
-    background-image:url('../assets/minniapolis.png');
+    background-image:url('../assets/minneapolis.png');
     background-size: 100% 100%;
     //opacity: .5;
   }
-  .topImage3{
-    background-image:url('../assets/minniapolisyellow.png');
+  .topImage2{
+    background-image:url('../assets/minneapolis.png');
+    background-size: 100% 100%;
     //opacity: .5;
   }
   .mainText{
@@ -818,6 +825,9 @@ and (max-width : 4000px) {
     margin-top: 60px;
     background-size: cover;
     @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .aboutLink{
+    margin-top: 200px;
   }
   .aboutLink, .projectsLink{
     // margin-left: 10%;
@@ -943,6 +953,17 @@ and (max-width : 4000px) {
     font-style: normal !important;
     font-weight: 100;
     @include fadein(.6s);
+  }
+  .creative-commons{
+    text-align: center;
+    color: #8a8f8f;
+    font-size: 10px;
+    background-color: #333333;
+    width:100%;
+    height: 12px;
+  }
+  .row.correct-spacing{
+    margin-top: 150px;
   }
 }
 
