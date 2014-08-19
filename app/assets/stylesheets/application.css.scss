@@ -266,18 +266,6 @@ navbar changes
    font-family: 'Raleway';
  }
 
-.navbar-brand.dark,
-.navbar-brand.dark:not(:hover),
-{
-  background-color: $active-state-color;
-  @include transition(.3s);
-}
-.navbar-brand.dark:hover{
-  @include transition(.3s);
-  color:white;
-}
-
-
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -362,9 +350,17 @@ navbar changes
   //opacity: 0;
 
 }
+/*******************************************
+CSS for Mobile Screens
+*******************************************/
 @media only screen
 and (min-width : 320px)
 and (max-width : 991px) {
+  .navbar-brand.dark,
+  {
+    background-color: $active-state-color;
+  }
+
   .topBox, .aboutBox{
     width:100%;
     height: 560px;
@@ -655,10 +651,25 @@ and (max-width : 991px) {
     @include fadein(.6s);
   }
 }
+/*******************************************
+CSS for Normal Screens
+*******************************************/
 
 @media only screen
 and (min-width : 991px)
 and (max-width : 4000px) {
+
+  .navbar-brand.dark,
+  .navbar-brand.dark:not(:hover),
+  {
+    background-color: $active-state-color;
+    @include transition(.3s);
+  }
+  .navbar-brand.dark:hover{
+    @include transition(.3s);
+    color:white;
+  }
+
   .topBox, .aboutBox{
     width:100%;
     height: 1080px;
