@@ -380,33 +380,33 @@ navbar changes
   //opacity: 0;
 
 }
-.topBox, .aboutBox{
-  width:100%;
-  height: 1080px;
-  background-color: #E8EDED;
-  font-family: 'Raleway','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  a{
-    color:#E8EDED;
-    text-decoration: none;
-    font-style: normal !important;
-    font-weight: 100;
-  }
-  a:link{
-    text-decoration: none;
-  }
-  a:visited{
-    text-decoration: none;
-  }
-  a:hover{
-    text-decoration: none;
-    font-style: normal !important;
-    font-weight: 100;
-  }
-
-}
 @media only screen
 and (min-width : 320px)
 and (max-width : 991px) {
+  .topBox, .aboutBox{
+    width:100%;
+    height: 560px;
+    background-color: #E8EDED;
+    font-family: 'Raleway','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    a{
+      color:#E8EDED;
+      text-decoration: none;
+      font-style: normal !important;
+      font-weight: 100;
+    }
+    a:link{
+      text-decoration: none;
+    }  
+    a:visited{
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: none;
+      font-style: normal !important;
+      font-weight: 100;
+    }
+
+  }  
   .placeHoldBox{
     width:100%;
     height:1100px;
@@ -552,6 +552,30 @@ and (max-width : 991px) {
 @media only screen
 and (min-width : 991px)
 and (max-width : 4000px) {
+  .topBox, .aboutBox{
+    width:100%;
+    height: 1080px;
+    background-color: #E8EDED;
+    font-family: 'Raleway','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    a{
+      color:#E8EDED;
+      text-decoration: none;
+      font-style: normal !important;
+      font-weight: 100;
+    }
+    a:link{
+      text-decoration: none;
+    }
+    a:visited{
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: none;
+      font-style: normal !important;
+      font-weight: 100;
+    }
+
+  }    
   .placeHoldBox{
     width:100%;
     height:600px;
