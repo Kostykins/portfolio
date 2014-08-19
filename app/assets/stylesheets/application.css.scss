@@ -188,27 +188,27 @@ body {
   background-image:url('../assets/crossword.png');
 }
 
-  .section {
-    @media screen and (max-width: 768px) {
-      height: $login-height;
-      width:100%;
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-    @media screen and (min-width: 768px) {
-      height: $login-height;
-      width:100%;
-      padding-left: 10%;
-      padding-right: 10%;
-    }
-    .debug_dump {
-      clear: both;
-      float: left;
-      width: 100%;
-      margin-top: 45px;
-      @include box_sizing;
-    }
+.section {
+  @media screen and (max-width: 768px) {
+    height: $login-height;
+    width:100%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
+  @media screen and (min-width: 768px) {
+    height: $login-height;
+    width:100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .debug_dump {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    @include box_sizing;
+  }
+}
 
 /************************************************
 navbar changes
@@ -325,44 +325,10 @@ navbar changes
 .aboutLink{
   margin-top: 100px;
 }
-.aboutLink, .projectsLink{
- // margin-left: 10%;
-  font-size: 92px;
-  color:#E8EDED;
-  @include fadein(.6s);
-  text-align: center;
-  @include transition(.2s);
-}
-.projectLink{
-  font-size: 64px;
-  color:#E8EDED;
-  @include fadein(.6s);
-  text-align: center;
-  @include transition(.2s);
-  font-family: 'Raleway';
-  font-style: normal !important;
-  font-weight: 100;
-}
-.projectLink:hover{
-  background-color: #E8EDED;
-  color: #333333;
-  font-size: 64px;
-  text-decoration: none;
-  text-align: center;
-  @include transition(.2s);
-}
-.aboutLink:hover, .projectsLink:hover{
-  background-color: #E8EDED;
-  color: #333333;
-  font-size: 92px;
-  text-decoration: none;
-  text-align: center;
-  @include transition(.2s);
-}
 
 .desciptorText-Main{
- // margin-left: 17%;
- // margin-right: 17%;
+  // margin-left: 17%;
+  // margin-right: 17%;
   text-align: center;
   font-size:32px;
   padding-top: 10px;
@@ -436,7 +402,7 @@ navbar changes
     font-style: normal !important;
     font-weight: 100;
   }
-  
+
 }
 @media only screen
 and (min-width : 320px)
@@ -457,11 +423,11 @@ and (max-width : 991px) {
     height:1000px;
     opacity:1;
   }
-  
+
   .topImage{
     background-image:url('../assets/minniapolis.png');
     //opacity: .5;
-  } 
+  }
   .topImage2{
     background-image:url('../assets/minniapolis.png');
     background-size: cover;
@@ -472,81 +438,115 @@ and (max-width : 991px) {
     background-image:url('../assets/minniapolisyellow.png');
     //opacity: .5;
   }
-.mainText{
-  text-align: center;
-  font-size:64px;
-  padding-top: 130px;
-  color: #eeeeee;
-  font-family: 'Raleway';
-  font-style: normal !important;
-  font-weight: 400;
-  @include fadein(.6s);
-}
-.designExample{
-  width: 90%;
-  height: 480px;
- // border: 1px solid #333333;
-  background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
- // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.codeExample{
-  width: 90%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/codeExample2.png');
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.knearuExample{
-  width: 90%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/knearu.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.smartFridgeExample{
-  width: 90%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/smartfridgexample.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.compilerExample{
-  width: 90%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/compiler.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-  
+  .mainText{
+    text-align: center;
+    font-size:64px;
+    padding-top: 130px;
+    color: #eeeeee;
+    font-family: 'Raleway';
+    font-style: normal !important;
+    font-weight: 400;
+    @include fadein(.6s);
+  }
+  .designExample{
+    width: 90%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .codeExample{
+    width: 90%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/codeExample2.png');
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .knearuExample{
+    width: 90%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/knearu.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .smartFridgeExample{
+    width: 90%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/smartfridgexample.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .compilerExample{
+    width: 90%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/compiler.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .aboutLink, .projectsLink{
+    // margin-left: 10%;
+    font-size: 48px;
+    color:#E8EDED;
+    @include fadein(.6s);
+    text-align: center;
+    @include transition(.2s);
+  }
+  .projectLink{
+    font-size: 48px;
+    color:#E8EDED;
+    @include fadein(.6s);
+    text-align: center;
+    @include transition(.2s);
+    font-family: 'Raleway';
+    font-style: normal !important;
+    font-weight: 100;
+  }
+  .projectLink:hover{
+    background-color: #E8EDED;
+    color: #333333;
+    font-size: 48px;
+    text-decoration: none;
+    text-align: center;
+    @include transition(.2s);
+  }
+  .aboutLink:hover, .projectsLink:hover{
+    background-color: #E8EDED;
+    color: #333333;
+    font-size: 48px;
+    text-decoration: none;
+    text-align: center;
+    @include transition(.2s);
+  }
+
 }
 
 @media only screen
@@ -568,11 +568,11 @@ and (max-width : 4000px) {
     height:1080px;
     opacity:1;
   }
-  
+
   .topImage{
     background-image:url('../assets/minniapolis.png');
     //opacity: .5;
-  } 
+  }
   .topImage2{
     background-image:url('../assets/minniapolis.png');
     background-size: 100% 100%;
@@ -582,81 +582,115 @@ and (max-width : 4000px) {
     background-image:url('../assets/minniapolisyellow.png');
     //opacity: .5;
   }
-.mainText{
-  text-align: center;
-  font-size:112px;
-  padding-top: 130px;
-  color: #eeeeee;
-  font-family: 'Raleway';
-  font-style: normal !important;
-  font-weight: 400;
-  @include fadein(.6s);
-}
-.designExample{
-  width: 70%;
-  height: 480px;
- // border: 1px solid #333333;
-  background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
- // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.codeExample{
-  width: 70%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/codeExample2.png');
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.knearuExample{
-  width: 70%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/knearu.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.smartFridgeExample{
-  width: 70%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/smartfridgexample.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.compilerExample{
-  width: 70%;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/compiler.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-  
+  .mainText{
+    text-align: center;
+    font-size:112px;
+    padding-top: 130px;
+    color: #eeeeee;
+    font-family: 'Raleway';
+    font-style: normal !important;
+    font-weight: 400;
+    @include fadein(.6s);
+  }
+  .designExample{
+    width: 70%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .codeExample{
+    width: 70%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/codeExample2.png');
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .knearuExample{
+    width: 70%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/knearu.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .smartFridgeExample{
+    width: 70%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/smartfridgexample.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .compilerExample{
+    width: 70%;
+    height: 480px;
+    // border: 1px solid #333333;
+    background-image:url('../assets/compiler.png');
+    // margin-left: 60px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 60px;
+    background-size: cover;
+    @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+  }
+  .aboutLink, .projectsLink{
+    // margin-left: 10%;
+    font-size: 92px;
+    color:#E8EDED;
+    @include fadein(.6s);
+    text-align: center;
+    @include transition(.2s);
+  }
+  .projectLink{
+    font-size: 64px;
+    color:#E8EDED;
+    @include fadein(.6s);
+    text-align: center;
+    @include transition(.2s);
+    font-family: 'Raleway';
+    font-style: normal !important;
+    font-weight: 100;
+  }
+  .projectLink:hover{
+    background-color: #E8EDED;
+    color: #333333;
+    font-size: 64px;
+    text-decoration: none;
+    text-align: center;
+    @include transition(.2s);
+  }
+  .aboutLink:hover, .projectsLink:hover{
+    background-color: #E8EDED;
+    color: #333333;
+    font-size: 92px;
+    text-decoration: none;
+    text-align: center;
+    @include transition(.2s);
+  }
+
 }
 .outercircle{
   height: 140px;
