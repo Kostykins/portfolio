@@ -360,16 +360,6 @@ navbar changes
   @include transition(.2s);
 }
 
-.mainText{
-  text-align: center;
-  font-size:112px;
-  padding-top: 130px;
-  color: #eeeeee;
-  font-family: 'Raleway';
-  font-style: normal !important;
-  font-weight: 400;
-  @include fadein(.6s);
-}
 .desciptorText-Main{
  // margin-left: 17%;
  // margin-right: 17%;
@@ -424,18 +414,6 @@ navbar changes
   //opacity: 0;
 
 }
-.topImage{
-  background-image:url('../assets/minniapolis.png');
-  //opacity: .5;
-}
-.topImage2{
-   background-image:url('../assets/minniapolis.png');
-   //opacity: .5;
- }
-.topImage3{
-  background-image:url('../assets/minniapolisyellow.png');
-  //opacity: .5;
-}
 .topBox, .aboutBox{
   width:100%;
   height: 1080px;
@@ -458,6 +436,7 @@ navbar changes
     font-style: normal !important;
     font-weight: 100;
   }
+  
 }
 @media only screen
 and (min-width : 320px)
@@ -478,7 +457,98 @@ and (max-width : 991px) {
     height:1000px;
     opacity:1;
   }
+  
+  .topImage{
+    background-image:url('../assets/minniapolis.png');
+    //opacity: .5;
+  } 
+  .topImage2{
+    background-image:url('../assets/minniapolis.png');
+    background-size: cover;
+    overflow: hidden;
+    //opacity: .5;
+  }
+  .topImage3{
+    background-image:url('../assets/minniapolisyellow.png');
+    //opacity: .5;
+  }
+.mainText{
+  text-align: center;
+  font-size:64px;
+  padding-top: 130px;
+  color: #eeeeee;
+  font-family: 'Raleway';
+  font-style: normal !important;
+  font-weight: 400;
+  @include fadein(.6s);
 }
+.designExample{
+  width: 90%;
+  height: 480px;
+ // border: 1px solid #333333;
+  background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
+ // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.codeExample{
+  width: 90%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/codeExample2.png');
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.knearuExample{
+  width: 90%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/knearu.png');
+  // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.smartFridgeExample{
+  width: 90%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/smartfridgexample.png');
+  // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.compilerExample{
+  width: 90%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/compiler.png');
+  // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+  
+}
+
 @media only screen
 and (min-width : 991px)
 and (max-width : 4000px) {
@@ -498,6 +568,95 @@ and (max-width : 4000px) {
     height:1080px;
     opacity:1;
   }
+  
+  .topImage{
+    background-image:url('../assets/minniapolis.png');
+    //opacity: .5;
+  } 
+  .topImage2{
+    background-image:url('../assets/minniapolis.png');
+    background-size: 100% 100%;
+    //opacity: .5;
+  }
+  .topImage3{
+    background-image:url('../assets/minniapolisyellow.png');
+    //opacity: .5;
+  }
+.mainText{
+  text-align: center;
+  font-size:112px;
+  padding-top: 130px;
+  color: #eeeeee;
+  font-family: 'Raleway';
+  font-style: normal !important;
+  font-weight: 400;
+  @include fadein(.6s);
+}
+.designExample{
+  width: 70%;
+  height: 480px;
+ // border: 1px solid #333333;
+  background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
+ // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.codeExample{
+  width: 70%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/codeExample2.png');
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.knearuExample{
+  width: 70%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/knearu.png');
+  // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.smartFridgeExample{
+  width: 70%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/smartfridgexample.png');
+  // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+.compilerExample{
+  width: 70%;
+  height: 480px;
+  // border: 1px solid #333333;
+  background-image:url('../assets/compiler.png');
+  // margin-left: 60px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 60px;
+  background-size: cover;
+  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
+}
+  
 }
 .outercircle{
   height: 140px;
@@ -606,19 +765,6 @@ and (max-width : 4000px) {
 .designList{
   margin-top: 10px;
 }
-.designExample{
-  width: 460px;
-  height: 480px;
- // border: 1px solid #333333;
-  background-image:url('../assets/iOS Simulator Screen shot Aug 15, 2014, 1.09.51 PM.png');
- // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
 .designText{
   margin: 20px 0px 20px 100px;
 }
@@ -633,57 +779,6 @@ and (max-width : 4000px) {
   height: 600px;
   //visibility:hidden;
   font-family: 'Raleway','Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.codeExample{
-  width: 460px;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/codeExample2.png');
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.knearuExample{
-  width: 460px;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/knearu.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.smartFridgeExample{
-  width: 460px;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/smartfridgexample.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
-}
-.compilerExample{
-  width: 460px;
-  height: 480px;
-  // border: 1px solid #333333;
-  background-image:url('../assets/compiler.png');
-  // margin-left: 60px;
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-top: 60px;
-  background-size: cover;
-  @include box-shadow(rgba(34,34,34,0.7), 0px, 0px, 12px);
 }
 .fixed-topBox{
   width: 80%;
