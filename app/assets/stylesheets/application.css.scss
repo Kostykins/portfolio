@@ -258,16 +258,16 @@ navbar changes
 }
 
 .navbar-brand {
-  float: left;
-  padding: 8px 10px;
-  font-size: 14px;
-  line-height: 20px;
-  height: 50px;
-  font-family: 'Raleway';
-}
+   float: left;
+   padding: 8px 10px;
+   font-size: 14px;
+   line-height: 20px;
+   height: 50px;
+   font-family: 'Raleway';
+ }
 
 .navbar-brand.dark,
-.navbar-brand.dark:active
+.navbar-brand.dark:not(:hover),
 {
   background-color: $active-state-color;
   @include transition(.3s);
