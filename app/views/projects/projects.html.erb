@@ -122,17 +122,17 @@
         if((/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent)){
             $("#knearuLink").click(function() {
                 $('html, body').animate({
-                    scrollTop: $("#knearu").offset().top
+                    scrollTop: $("#knearu").offset().top - 20
                 }, 500);
             });
             $("#dayleeLink").click(function() {
                 $('html, body').animate({
-                    scrollTop: $("#daylee").offset().top
+                    scrollTop: $("#daylee").offset().top - 20
                 }, 500);
             });
             $("#fridgeLink").click(function() {
                 $('html, body').animate({
-                    scrollTop: $("#fridge").offset().top 
+                    scrollTop: $("#fridge").offset().top - 20
                 }, 500);
             });
             $("#compilerLink").click(function() {
