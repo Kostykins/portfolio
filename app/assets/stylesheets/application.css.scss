@@ -563,17 +563,17 @@ and (max-width : 991px) {
     width: 70px;
     border-radius: 50%;
     font-size: 42px;
-    color:#333333;
+    color:#222222;
     background-color: transparent;
     text-align: center;
     margin: auto;
-    border: 0px solid #333333;
+    border: 0px solid #222222;
     @include transition(.2s);
   }
   .outercircle:active{
     height: 70px;
     width: 70px;
-    background-color: #333333;
+    background-color: #222222;
     border: 5px solid transparent;
     -webkit-backface-visibility: hidden;
     @include transition(.2s);
@@ -584,7 +584,7 @@ and (max-width : 991px) {
     width: 60px;
     border-radius: 50%;
     font-size: 42px;
-    color:#333333;
+    color:#222222;
     background-color: #E8EDED;
     text-align: center;
     margin: auto;
@@ -667,6 +667,10 @@ and (max-width : 991px) {
   }
   #knearuLink{
     margin-top: 60px;
+  }
+  .widgets{
+    position: static;
+    visibility: hidden;
   }
 }
 /*******************************************
@@ -892,17 +896,17 @@ and (max-width : 4000px) {
     width: 140px;
     border-radius: 50%;
     font-size: 84px;
-    color:#333333;
+    color:#222222;
     background-color: transparent;
     text-align: center;
     margin: auto;
-    border: 0px solid #333333;
+    border: 0px solid #222222;
     @include transition(.2s);
   }
   .outercircle:hover{
     height: 140px;
     width: 140px;
-    background-color: #333333;
+    background-color: #222222;
     border: 10px solid transparent;
     -webkit-backface-visibility: hidden;
     @include transition(.2s);
@@ -913,7 +917,7 @@ and (max-width : 4000px) {
     width: 120px;
     border-radius: 50%;
     font-size: 84px;
-    color:#333333;
+    color:#222222;
     background-color: #E8EDED;
     text-align: center;
     margin: auto;
