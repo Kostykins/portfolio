@@ -14,9 +14,11 @@ development:
   adapter: postgresql
   encoding: unicode
   database: portfolio_development
+  user: mekostelecky
+  password: 'Flash123'
   host: localhost
   pool: 5
-  password: 'ddss8256'
+
 
 # Warning: The database defined as "test" will be erased and
 # Do not set this db to the same as development or production.
@@ -30,3 +32,9 @@ test:
 
 production:
   adapter: postgresql
+  encoding: utf8
+  database: portfolio_development
+  user: mekostelecky
+  password: 'Flash123'
+  host: localhost
+  pool: 5
