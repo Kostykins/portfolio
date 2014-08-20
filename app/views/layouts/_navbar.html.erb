@@ -118,6 +118,8 @@
             //Store color
             localStorage.setItem("curColor", color);
         });
-        $("#navbar").navbar();
+        $('.navbar-brand.dark').on('click', function(){
+          $("#navbar").navbar("resfresh");
+        });
     });
 </script>
