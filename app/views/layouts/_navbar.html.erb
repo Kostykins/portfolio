@@ -118,7 +118,7 @@
             //Store color
             localStorage.setItem("curColor", color);
         });
-        if($('.widgets').css('position') == 'static'){
+        if((/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent)){
           $(".navbar-brand").css('background-color', '#222222');
         }
     });
