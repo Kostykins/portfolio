@@ -685,6 +685,24 @@ and (max-width : 4000px) {
     @include transition(.3s);
     color:white;
   }
+  .widgets{
+    position: fixed;
+    //color: #E8EDED;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 45%;
+    margin-right: auto;
+    z-index: 1031;
+    .w-select{
+      color: #E8EDED;
+      @include transition(.2s);
+    }
+    .w-select:hover, a{
+      color:#222222;
+      text-decoration: none;
+    }
+  }
 
   .topBox, .aboutBox{
     width:100%;
