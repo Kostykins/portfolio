@@ -37,7 +37,7 @@
       <file leaf-file-name="_navbar.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="12" selection-start="5245" selection-end="5245" vertical-scroll-proportion="0.6917808" vertical-offset="1497" max-vertical-offset="1935">
+            <state line="122" column="9" selection-start="5313" selection-end="5313" vertical-scroll-proportion="0.79452056" vertical-offset="1482" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -771,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_navbar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="12" selection-start="5245" selection-end="5245" vertical-scroll-proportion="0.6917808" vertical-offset="1497" max-vertical-offset="1935">
+        <state line="122" column="9" selection-start="5313" selection-end="5313" vertical-scroll-proportion="0.79452056" vertical-offset="1482" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
