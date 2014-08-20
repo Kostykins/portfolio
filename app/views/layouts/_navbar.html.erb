@@ -118,8 +118,7 @@
             //Store color
             localStorage.setItem("curColor", color);
         });
-        $('.navbar-brand.dark').on('click', function(){
-          $("#navbar").navbar("resfresh");
-        });
+        $("#menu").html("<li><a href='#'>Test Styling</a></li>");
+        $("#navbar").navbar();
     });
 </script>
