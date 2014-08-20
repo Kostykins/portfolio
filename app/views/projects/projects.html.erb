@@ -119,26 +119,49 @@
         $(window).on('beforeunload', function(){
             $(window).scrollTop(0);
         });
-        $("#knearuLink").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#knearu").offset().top - 100
-            }, 500);
-        });
-        $("#dayleeLink").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#daylee").offset().top - 100
-            }, 500);
-        });
-        $("#fridgeLink").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#fridge").offset().top - 100
-            }, 500);
-        });
-        $("#compilerLink").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#compiler").offset().top
-            }, 500);
-        });
+        if((/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent)){
+            $("#knearuLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#knearu").offset().top
+                }, 500);
+            });
+            $("#dayleeLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#daylee").offset().top
+                }, 500);
+            });
+            $("#fridgeLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#fridge").offset().top 
+                }, 500);
+            });
+            $("#compilerLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#compiler").offset().top
+                }, 500);
+            });
+        } else {
+            $("#knearuLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#knearu").offset().top - 100
+                }, 500);
+            });
+            $("#dayleeLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#daylee").offset().top - 100
+                }, 500);
+            });
+            $("#fridgeLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#fridge").offset().top - 100
+                }, 500);
+            });
+            $("#compilerLink").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#compiler").offset().top
+                }, 500);
+            });
+        }
 
     });
 </script>
