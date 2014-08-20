@@ -5,7 +5,6 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/portfolio_development</jdbc-url>
-      <user-password>dfecdfc6dfcbdfd9dfc2df9bdf98df99</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails portfolio: test" uuid="c3b89f71-f172-4e57-b8d0-bdffcfe6a7e4">

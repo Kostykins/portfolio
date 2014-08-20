@@ -14,8 +14,8 @@ development:
   adapter: postgresql
   encoding: unicode
   database: portfolio_development
-  user: mekostelecky
-  password: 'Flash123'
+ # user: mekostelecky
+ # password: 'Flash123'
   host: localhost
   pool: 5
 

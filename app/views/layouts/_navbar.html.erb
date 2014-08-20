@@ -118,6 +118,8 @@
             //Store color
             localStorage.setItem("curColor", color);
         });
-        $(".navbar-brand").css('background-color', '#222222');
+        if($('.widgets').css('position') == 'static'){
+          $(".navbar-brand").css('background-color', '#222222');
+        }
     });
 </script>
