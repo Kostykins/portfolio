@@ -1016,6 +1016,15 @@ and (max-width : 4000px) {
 }
 .designList{
   margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  a{
+    text-decoration: none;
+    @include transition(.2s);
+  }
+  a:hover{
+    color: #222222;
+  }
 }
 .designText{
   margin: 20px 0px 20px 100px;

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails portfolio: development" uuid="54cf7048-f8c9-4ee8-bdd5-c19cd60bd384">
+      <secret-storage>memory</secret-storage>
+    </data-source>
+    <data-source name="Rails portfolio: test" uuid="c3b89f71-f172-4e57-b8d0-bdffcfe6a7e4">
+      <secret-storage>memory</secret-storage>
+      <user-password>dfcedfcedfd9dfd9df92df98df9fdf9c</user-password>
+    </data-source>
+    <data-source name="Rails portfolio: production" uuid="b375a81b-d403-458a-a1da-762c955d9826">
+      <secret-storage>memory</secret-storage>
+      <user-password>dfecdfc6dfcbdfd9dfc2df9bdf98df99</user-password>
+    </data-source>
+  </component>
+</project>

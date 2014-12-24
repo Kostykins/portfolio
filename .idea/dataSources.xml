@@ -11,16 +11,13 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:portfolio_test</jdbc-url>
-      <user-password>dfcedfcedfd9dfd9df92df98df9fdf9c</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails portfolio: production" uuid="b375a81b-d403-458a-a1da-762c955d9826">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/portfolio_development</jdbc-url>
-      <user-password>dfecdfc6dfcbdfd9dfc2df9bdf98df99</user-password>
       <libraries />
     </data-source>
   </component>
 </project>
-
