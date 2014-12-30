@@ -161,7 +161,7 @@ Global changes
   width: 1170px;
 }
 body {
-  font-family: 'Raleway', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -269,7 +269,7 @@ navbar changes
   font-size: 14px;
   line-height: 20px;
   height: 50px;
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   background-color: #222222;
 }
 .navbar-default .navbar-nav > .open > a,
@@ -329,7 +329,7 @@ navbar changes
   font-size: 32px;
   padding-top: 10px;
   color: #eeeeee;
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   font-style: normal !important;
   font-weight: 100;
   width: 100%;
@@ -348,7 +348,7 @@ navbar changes
   font-size: 64px;
   padding-top: 60px;
   color: #333333;
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   font-style: normal !important;
   font-weight: 100;
   width: 35%;
@@ -359,7 +359,7 @@ navbar changes
   font-size: 36px;
   padding-top: 10px;
   color: #333333;
-  font-family: 'Raleway';
+  font-family: 'Roboto';
   font-style: normal !important;
   font-weight: 100;
 }
@@ -377,7 +377,7 @@ CSS for Mobile Screens
     width: 100%;
     height: 560px;
     background-color: #E8EDED;
-    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   .topBox a,
   .aboutBox a {
@@ -426,7 +426,7 @@ CSS for Mobile Screens
     font-size: 64px;
     padding-top: 130px;
     color: #eeeeee;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 400;
     -webkit-animation: fadein 0.6s ease-in;
@@ -444,7 +444,7 @@ CSS for Mobile Screens
     font-size: 42px;
     margin-top: 60px;
     color: #333333;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 100;
   }
@@ -453,7 +453,7 @@ CSS for Mobile Screens
     font-size: 28px;
     padding-top: 10px;
     color: #333333;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 100;
   }
@@ -566,7 +566,7 @@ CSS for Mobile Screens
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     transition: 0.2s;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 100;
   }
@@ -814,7 +814,7 @@ CSS for Normal Screens
     width: 100%;
     height: 1080px;
     background-color: #E8EDED;
-    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   .topBox a,
   .aboutBox a {
@@ -866,7 +866,7 @@ CSS for Normal Screens
     font-size: 112px;
     padding-top: 130px;
     color: #eeeeee;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 400;
     -webkit-animation: fadein 0.6s ease-in;
@@ -884,7 +884,7 @@ CSS for Normal Screens
     font-size: 64px;
     margin-top: 60px;
     color: #333333;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 100;
   }
@@ -893,7 +893,7 @@ CSS for Normal Screens
     font-size: 36px;
     padding-top: 10px;
     color: #333333;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 100;
   }
@@ -1020,7 +1020,7 @@ CSS for Normal Screens
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     transition: 0.2s;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-style: normal !important;
     font-weight: 100;
   }
@@ -1198,12 +1198,12 @@ CSS for Normal Screens
 .designBox {
   width: 100%;
   height: 600px;
-  font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .designBox2 {
   width: 100%;
   height: 600px;
-  font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .designList {
   margin-top: 10px;
@@ -1226,12 +1226,12 @@ CSS for Normal Screens
 .codeBox {
   width: 100%;
   height: 600px;
-  font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .codeBox2 {
   width: 100%;
   height: 600px;
-  font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .fixed-topBox {
   width: 80%;
